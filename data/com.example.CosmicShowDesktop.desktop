@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Show Desktop
+Exec=~/.local/bin/cosmic-applet-show-desktop
+Terminal=false
+Type=Application
+NoDisplay=false
+X-CosmicApplet=true
+X-OverflowPriority=0
+Icon=view-grid-symbolic
+Categories=COSMIC;Utility;
