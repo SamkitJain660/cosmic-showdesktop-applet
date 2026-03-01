@@ -24,7 +24,7 @@ impl Application for Applet {
     type Flags = ();
     type Message = Message;
 
-    const APP_ID: &'static str = "com.example.CosmicToggleMinimizeAll";
+    const APP_ID: &'static str = "com.example.CosmicShowDesktop";
 
     fn init(core: Core, _flags: ()) -> (Self, Task<Action<Self::Message>>) {
         let wm = WindowManager::new()
